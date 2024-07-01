@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: linear-gradient(260deg, #b75d62, #754d4f);
+	overflow: hidden;
+}
+
+.showcase {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 90vh;
+	padding: 0rem 15%;
+	overflow: hidden;
+}
+
+nav {
+	min-height: 10vh;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 15%;
+}
+
+.logo {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+nav img {
+	scale: 0.8;
+}
+
+.image-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 80vh;
+	z-index: 2;
+	flex: 1;
+}
+
+.image-container img {
+	width: 80%;
+}
+
+.showcase-text {
+	color: #fff;
+	z-index: 2;
+	flex: 1;
+	padding-bottom: 10rem;
+}
+
+.showcase-title {
+	font-size: 3rem;
+}
+
+.showcase-subtitle {
+	padding: 3rem 0;
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+
+.showcase-button {
+	padding: 0.5rem 2rem;
+	border: none;
+	color: #000;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.8rem;
+}
+
+.showcase-arrow {
+	position: absolute;
+	right: 15%;
+	bottom: 10%;
+	scale: 0.8;
+}
+
+.circle {
+	position: absolute;
+}
+.circle-1 {
+	left: -3%;
+	bottom: -3%;
+	scale: 2;
+}
+
+.circle-2 {
+	left: 35%;
+	bottom: 10%;
+}
+
+.circle-3 {
+	left: 20%;
+	top: 15%;
+	scale: 1.5;
+}
+
+.product-nav {
+	min-height: 10vh;
+}
+
+.product-section {
+	min-height: 90vh;
+	background: #fff;
+	position: absolute;
+	width: 100vw;
+	z-index: 5;
+}
+
+.product-description {
+	padding: 5rem;
+	color: #4b4b4b;
+}
+
+.product-description h2 {
+	font-size: 2rem;
+}
+
+.product-description p {
+	font-size: 1.2rem;
+	padding: 1rem 0;
+}
+
+.product-gallery {
+	display: grid;
+	padding: 0% 15%;
+	overflow: hidden;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	row-gap: 2rem;
+	column-gap: 2rem;
+}
+
+.product-gallery .product-img {
+	border-radius: 1rem;
+	width: 100%;
+}
+
+.price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card {
+	padding: 2rem;
+	background-color: #f5f5f5;
+	border-radius: 0.5rem;
+}
